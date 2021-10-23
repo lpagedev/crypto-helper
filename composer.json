@@ -1,0 +1,27 @@
+{
+  "name": "lpagedev/crypto-helper",
+  "type": "library",
+  "description": "Helper class for basic hashing and encryption",
+  "keywords": ["php","encrypt","hash"],
+  "homepage": "https://github.com/lpagedev/crypto-helper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Levi Page",
+      "email": "levipage@gmail.com",
+      "homepage": "https://lpage.dev",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "ext-mbstring": "*",
+    "ext-sodium": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lpagedev\\Helpers\\": "src/"
+    }
+  }
+}
